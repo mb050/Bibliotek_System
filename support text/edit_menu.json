@@ -1,0 +1,188 @@
+{
+	"category": {
+    	"title": "edit category",
+		"input": "\nEnter the field you want to edit:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete"
+        ],
+        "overview": [
+            "\navailable fields:",
+            "\n\t- name"
+        ],
+		"help": {
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete",
+            "\navailable fields:",
+            "\n\t- name"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid field, command, or type \"option\":\n>"
+    },
+	
+	"library": {
+    	"title": "edit library",
+		"input": "\nEnter the field you want to edit:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete"
+        ],
+        "overview": [
+            "\navailable fields:",
+            "\n\t- id",
+            "\n\t- name",
+			"\n\t- address",
+            "\n\t- contact_info"
+            
+        ],
+		"help": {	
+		},
+		"options": [
+			"\nextra commands:",
+			"\n\t- lookup",
+			"\n\t- option",
+			"\n\t- stop",
+			"\n\t- quit",
+			"\n\t- delete",
+			"\navailable fields:",
+            "\n\t- id",
+            "\n\t- name",
+			"\n\t- address",
+            "\n\t- contact_info"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid field, command, or type \"option\":\n>"
+    },
+	
+	"book": {
+    	"title": "edit book",
+		"input": "\nEnter the field you want to edit:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete"
+        ],
+        "overview": [
+            "\navailable fields:",
+            "\n\t- title",
+            "\n\t- publication_date",
+            "\n\t- category",
+            "\n\t- author",
+			"\n\t- isbn_10",
+			"\n\t- isbn_13",
+			"\n\t- library_id",
+			"\n\t- individual_id",
+			"\n\t- available"
+        ],
+		"help": {	
+		},
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete",
+            "\navailable fields:",
+            "\n\t- title",
+            "\n\t- publication_date",
+            "\n\t- category",
+            "\n\t- author",
+			"\n\t- isbn_10",
+			"\n\t- isbn_13",
+			"\n\t- library_id",
+			"\n\t- individual_id",
+			"\n\t- available"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid field, command, or type \"option\":\n>"
+    },
+	
+	"author": {
+    	"title": "edit author",
+		"input": "\nEnter the field you want to edit:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- lookup_book",
+			"\n\t- lookup_general",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete"
+        ],
+        "overview": [
+            "\navailable fields:",
+            "\n\t- name",
+            "\n\t- birthdate",
+            "\n\t- nationality",
+            "\n\t- publication"
+        ],
+		"help": {	
+		},
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- lookup_book",
+			"\n\t- lookup_general",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete",
+            "\navailable fields:",
+            "\n\t- name",
+            "\n\t- birthdate",
+            "\n\t- nationality",
+            "\n\t- publication"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid field, command, or type \"option\":\n>"
+    },
+	
+	"customer": {
+    	"title": "edit customer",
+		"input": "\nEnter the field you want to edit:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete"
+        ],
+        "overview": [
+            "\navailable fields:",
+            "\n\t- name",
+            "\n\t- address",
+            "\n\t- contact_info",
+            "\n\t- membership_date"
+        ],
+		"help": {	
+		},
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- lookup",
+        	"\n\t- option",
+			"\n\t- stop",
+        	"\n\t- quit",
+			"\n\t- delete",
+            "\navailable fields:",
+            "\n\t- name",
+            "\n\t- address",
+            "\n\t- contact_info",
+            "\n\t- membership_date"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid field, command, or type \"option\":\n>"
+    }
+}

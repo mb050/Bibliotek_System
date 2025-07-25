@@ -1,0 +1,809 @@
+{
+	"main menu": {
+		"title": "main menu",
+		"input": "\nEnter category or command:\n>",
+		"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- quit"
+        ],
+        "overview": [
+            "\navailable category/categories:",
+            "\n\t- category",
+            "\n\t- library",
+            "\n\t- books",
+            "\n\t- authors",
+            "\n\t- customer",
+			"\n\t- lending or borrowing",
+			"\n\t- analytics"
+        ],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. Empty input, \"stop\" and \"exit\" ",
+				"\n\t\t\u00B7 will also be accepted to stop the program from running."
+			],
+            "\n\navailable category/categories:": [
+				"\n\t\t\u00B7 Multiple related functions grouped together into categories."
+			],
+            "\n\t- category:": [
+				"\n\t\t\u00B7 Go to functions related to book categories."
+			],
+            "\n\t- library:": [
+				"\n\t\t\u00B7 Go to functions related to libraries."
+			],
+            "\n\t- books:": [
+				"\n\t\t\u00B7 Go to functions related to books."
+			],
+            "\n\t- authors:": [
+				"\n\t\t\u00B7 Go to functions related to product."
+			],
+            "\n\t- customer:": [
+				"\n\t\t\u00B7 Go to functions related to customer."
+			],
+			"\n\t- lending or borrowing:": [
+				"\n\t\t\u00B7 Go to functions related to lending/borrowing.",
+				"\n\t\t\u00B7 Both keywords are accepted."
+			],
+			"\n\t- analytics:": [
+				"\n\t\t\u00B7 Go to functions related to analytics."
+			]
+        },
+		"options": [
+            "\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- quit",
+            "\navailable category/categories:",
+            "\n\t- category",
+            "\n\t- library",
+            "\n\t- books",
+            "\n\t- authors",
+            "\n\t- customer",
+			"\n\t- lending or borrowing",
+			"\n\t- analytics"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid category, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"category":{
+		"title": "main/category",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit"
+        ],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- add:": [
+				"\n\t\t\u00B7 Add a new book category to the system",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> name: name of the new category."
+			],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table containing all registered categories",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- edit:": [
+				"\n\t\t\u00B7 Edit or remove a category from the system.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> category_name or category_id: name or id of the category to edit."
+			]
+        },
+        "options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit"
+        ],
+        "invalid": "\nInvalid entry.\nEnter a valid function, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"library":{
+		"title": "main/library",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- lookup_books"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- add:": [
+				"\n\t\t\u00B7 Add a new library to the system.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> library_id: id of the library.",
+				"\n\t\t> library_name: name of the library.",
+				"\n\t\t> address: address of the library.",
+				"\n\t\t> contact_information: id of the library."
+			],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table containing all registered libraries, address,",
+				"\n\t\t\u00B7 contact_information, and the amount of books in each one.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- edit:": [
+				"\n\t\t\u00B7 Edit the information to a library.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> library_id: id of the library to edit."
+			],
+			"\n\t- lookup_books:": [
+				"\n\t\t\u00B7 Get a table containing all the books at a given library.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- lookup_books"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"book":{
+		"title": "main/book",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- search_book"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- add:": [
+				"\n\t\t\u00B7 Add a new book to the system.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> title: name of the book.",
+				"\n\t\t> publish_date: publication date, in the format year-month-day.",
+				"\n\t\t> category: book genre. Additional genres must be\n\t\t  added individually with the edit function.",
+				"\n\t\t> author_name: name of author. Additional authors must be\n\t\t  added individually with the edit function.",
+				"\n\t\t> isbn_10: the isbn_10 to a given book. must be 10 characters long.",
+				"\n\t\t> isbn_13: the isbn_13 to a given book. must be 13 characters long.",
+				"\n\t\t> library_id: library_id of the library the book can be found in."
+			],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table of all registered books",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal.",
+				"\n\t\t> write_to_file: write the result to a txt file to the folder/txt_files.",
+				"\n\t\t> change_filename: use the default filename \"book_table.txt\" or a custom one."
+			],
+			"\n\t- edit:": [
+				"\n\t\t\u00B7 Edit the information to book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> book_id: id of the book to edit."
+			],
+			"\n\t- search_books:": [
+				"\n\t\t\u00B7 Search for a specific book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> search_variables: title, author_name, isbn_10, isbn_13, library_id.",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- search_book"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"author":{
+		"title": "main/author",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- publications",
+			"\n\t\t- all",
+			"\n\t\t- single"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- add:": [
+				"\n\t\t\u00B7 Add a new author to the system.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> author_name: name of the author.",
+				"\n\t\t> nationality: nationality of the author.",
+				"\n\t\t> birthdate: author's birthdate, in the format year-month-day."
+			],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table of all registered authors",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- edit:": [
+				"\n\t\t\u00B7 Edit the information to an author.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> author_id: id of a given author."
+			],
+			"\n\t- publications:": [
+				"\n\t\t\u00B7 Get a table of all the books published by either all authors, or a single author.",
+				"\n\t\t\u00B7 authors, or a single author.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> all: all books written by every authors in the system.",
+				"\n\t\t> single: all books written by a single author in the system."
+			]
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- publications",
+			"\n\t\t- all",
+			"\n\t\t- single"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"customer":{
+		"title": "main/customer",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- history",
+			"\n\t\t- \"all\" or \"full\"",
+			"\n\t\t- overdue",
+			"\n\t\t- currently_borrowed",
+			"\n\t\t- history",
+			"\n\t- book_search"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- add:": [
+				"\n\t\t\u00B7 Register a new customer to the system.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> name: name of the customer.",
+				"\n\t\t> address: address of the customer.",
+				"\n\t\t> contact_information: contact information to the customer.",
+				"\n\t\t> signup_date: date of registration, in the format year-month-day."
+			],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table of all registered customers",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- edit:": [
+				"\n\t\t\u00B7 Edit the information to a customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> customer_id: id of a given customer."
+			],
+			"\n\t- search:": [
+				"\n\t\t\u00B7 Search for a specific customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> customer_id or customer_name: either id or name of a customer."
+			],
+			"\n\t- lend_book:": [
+				"\n\t\t\u00B7 Lend a new book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> book_id: id of the book.",
+				"\n\t\t> customer_id: id of the customer."
+			],
+			"\n\t- return_book:": [
+				"\n\t\t\u00B7 Return a book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> borrow_id: id associated to the borrowed book."
+			],
+			"\n\t- prolong_period:": [
+				"\n\t\t\u00B7 Extend the period of time a customer can borrow a given book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> book_id: id of the book.",
+				"\n\t\t> n_days: amount of days to extend the period with."
+			],
+			"\n\t- history:": [
+				"\n\t\t\u00B7 View currently and previously borrowed books and those that are overdue.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> customer_id: id of the customer."
+			],
+			"\n\t- books_search:": [
+				"\n\t\t\u00B7 Search for a specific book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> search_variables: title, author_name, isbn_10, isbn_13, library_id.",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- add",
+			"\n\t- overview",
+			"\n\t- edit",
+			"\n\t- history",
+			"\n\t\t- \"all\" or \"full\"",
+			"\n\t\t- overdue",
+			"\n\t\t- currently_borrowed",
+			"\n\t\t- history",
+			"\n\t- book_search"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"borrowing":{
+		"title": "main/borrowing",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- overview",
+			"\n\t\t- general",
+			"\n\t\t- overdue",
+			"\n\t\t- history",
+			"\n\t- delete",
+			"\n\t- customer_related",
+			"\n\t\t- \"all\" or \"full\"",
+			"\n\t\t- overdue",
+			"\n\t\t- currently_borrowed",
+			"\n\t\t- history",
+			"\n\t- book_search"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- overview:": [
+				"\n\t\t\u00B7 Get a table of all borrowed books",
+				"\n\t\t-> general: a table of all borrowed books.",
+				"\n\t\t\t\u00B7 Available variables:",
+				"\n\t\t\t> get_table: print out the result in the terminal.",
+				"\n\t\t-> overdue: a table of all borrowed books that should have been returned.",
+				"\n\t\t\t\u00B7 Available variables:",
+				"\n\t\t\t> get_table: print out the result in the terminal.",
+				"\n\t\t-> history: a table of previously borrowed books.",
+				"\n\t\t\t\u00B7 Available variables:",
+				"\n\t\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- customer_related:": [
+				"\n\t\t\u00B7 see currently and previously borrowed books for a given customer,",
+				"\n\t\t\u00B7 and those that are overdue.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> customer_id: id of a customer."
+			],
+			"\n\t- lend_book:": [
+				"\n\t\t\u00B7 Lend a new book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> book_id: id of the book.",
+				"\n\t\t> customer_id: id of the customer."
+			],
+			"\n\t- return_book:": [
+				"\n\t\t\u00B7 Return a book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> borrow_id: id associated to the borrowed book."
+			],
+			"\n\t- prolong_period:": [
+				"\n\t\t\u00B7 Extend the period of time a customer can borrow a given book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> book_id: id of the book.",
+				"\n\t\t> n_days: amount of days to extend the period with."
+			],
+			"\n\t- delete:": [
+				"\n\t\t\u00B7 delete a borrowed book and changes the status of the book to available.",
+				"\n\t\t\u00B7 of the book to available.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> borrow_id: id associated to the borrowed book.",
+				"\n\t\t> customer_id: id of the customer."
+			],
+			"\n\t- books_search:": [
+				"\n\t\t\u00B7 Search for a specific book.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> search_variables: title, author_name, isbn_10, isbn_13, library_id.",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+        },
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- overview",
+			"\n\t\t- general",
+			"\n\t\t- overdue",
+			"\n\t\t- history",
+			"\n\t- delete",
+			"\n\t- customer_related",
+			"\n\t\t- \"all\" or \"full\"",
+			"\n\t\t- overdue",
+			"\n\t\t- currently_borrowed",
+			"\n\t\t- history",
+			"\n\t- book_search"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"analytic":{
+		"title": "main/library",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- general",
+			"\n\t- book",
+			"\n\t- author",
+			"\n\t- category"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t0B7 functions/actions available in this category."
+				],
+			"\n\t- general:": [
+				"\n\t\t\u00B7 Get a table of all borrowed books for each library.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- book:": [
+				"\n\t\t\u00B7 Get a table of every book and the frequency of which each is borrowed.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- category:": [
+				"\n\t\t\u00B7 Get a table of every category and the amount of times it occurs.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- author:": [
+				"\n\t\t\u00B7 Get a table of the most popular authors.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+        },
+		"options": [
+            "\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+            "\navailable functions/actions:",
+			"\n\t- general",
+			"\n\t- book",
+			"\n\t- author",
+			"\n\t- category"
+        ],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	},
+	
+	"customer_history_menu": {
+		"title": "main/customer/history",
+		"input": "\nEnter functions/actions or command:\n>",
+    	"commands": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit"
+        ],
+        "overview": [
+			"\navailable functions/actions:",
+			"\n\t- \"all\" or \"full\"",
+			"\n\t- overdue",
+			"\n\t- currently_borrowed",
+			"\n\t- history"
+		],
+		"help": {
+			"\nextra commands:": [
+				"\n\t\t\u00B7 Additional commands not related or indirectly related to the queries." 
+			],
+        	"\n\t- help:": [
+				"\n\t\t\u00B7 Provides additional information for all valid commands."
+			],
+        	"\n\t- option:": [
+				"\n\t\t\u00B7 Lists all valid commands."
+			],
+        	"\n\t- back:": [
+				"\n\t\t\u00B7 Return to main menu. Empty input and \"up\" are also valid syntax."
+			],
+        	"\n\t- quit:": [
+				"\n\t\t\u00B7 Exit the program. \"stop\" and \"exit\" will also be",
+				"\n\t\t\u00B7 accepted to stop the program from running."
+			],
+			"\n\navailable functions/actions:": [
+				"\n\t\t\u00B7 functions/actions available in this category."
+				],
+			"\n\t- \"all\" or \"full\":": [
+				"\n\t\t\u00B7 Get a table of all borrowed books, previously borrowed books,",
+				"\n\t\t\u00B7 and all books that are overdue for a given customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- overdue:": [
+				"\n\t\t\u00B7 Get a table of all books that are overdue for a given customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- currently_borrowed:": [
+				"\n\t\t\u00B7 Get a table of all borrowed books for a given customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			],
+			"\n\t- history:": [
+				"\n\t\t\u00B7 Get a table of all previously borrowed",
+				"\n\t\t\u00B7 books for a given customer.",
+				"\n\t\t\u00B7 Available variables:",
+				"\n\t\t> get_table: print out the result in the terminal."
+			]
+		},
+		"options": [
+        	"\nextra commands:",
+        	"\n\t- help",
+        	"\n\t- option",
+        	"\n\t- back",
+        	"\n\t- quit",
+			"\navailable functions/actions:",
+			"\n\t- \"all\" or \"full\"",
+			"\n\t- overdue",
+			"\n\t- currently_borrowed",
+			"\n\t- history"
+		],
+		"invalid": "\nInvalid entry.\nEnter a valid functions/actions, or type either \"help\" or \"option\":\n>"
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
