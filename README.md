@@ -114,3 +114,10 @@ Filene i mappen ``[prosjekt_navn]`` skal være tilsvarende som:
         - urls.py
         - wsgi.py
     - support text:
+        - help.json
+        - edit_menu.json
+    - main.py
+    - manage.py
+```
+Alt skal nå være satt opp, og man kan så kjøre koden ved å bruke:\
+``py main.py``
