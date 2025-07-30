@@ -38,7 +38,8 @@ egen app mappe ``[app_navn]`` som ble laget i steget ovenfor. Det er også mulig
 kopiere over innholdet til filene med samme navn.
 
 Deretter gå til ``[prosjekt_navn]/settings.py`` og endre følgende
-```INSTALLED_APPS = [
+```
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -47,7 +48,8 @@ Deretter gå til ``[prosjekt_navn]/settings.py`` og endre følgende
     'django.contrib.staticfiles',
 ]```
 til
-```INSTALLED_APPS = [
+```
+INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
