@@ -1,6 +1,9 @@
-![screenshot](ER-diagram/ER-diagram_no.jpg)
-
 # Bibliotek_System
+
+![screenshot](ER-diagram/ER-diagram_no.jpg)
+ER-diagram for bibliotekssystemet. Koden er skrevet på engelsk, og det er en\
+engelsk versjon av samme diagram.\
+
 Oppgave rundt bruk av databaser i python med bruk av django. Hensikt å kunne\
 lage en database med fokus på CRUD operasjoner og flere relasjoner mellom\
 modeller.
