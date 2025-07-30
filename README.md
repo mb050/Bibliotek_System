@@ -33,8 +33,8 @@ manage.py
 Lag en django-app med:\
 ``py manage.py [app_navn]``
 
-Legg til følgende filer, ``models.py`` og ``admin.py`` fra mappen ``bibliotek`` i din\ 
-egen app mappen ``[app_navn]`` som ble laget i steget ovenfor. Det er også mulig å\
+Legg til følgende filer, ``models.py`` og ``admin.py`` fra mappen ``bibliotek`` i din\
+egen app mappe ``[app_navn]`` som ble laget i steget ovenfor. Det er også mulig å\
 kopiere over innholdet til filene med samme navn.
 
 Deretter gå til ``[prosjekt_navn]/settings.py`` og endre følgende
