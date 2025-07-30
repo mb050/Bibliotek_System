@@ -38,19 +38,16 @@ egen app mappe ``[app_navn]`` som ble laget i steget ovenfor. Det er også mulig
 kopiere over innholdet til filene med samme navn.
 
 Deretter gå til ``[prosjekt_navn]/settings.py`` og endre følgende
-```
-INSTALLED_APPS = [
+```INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]
-```
+]```
 til
-```
-INSTALLED_APPS = [
+```INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,8 +55,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_navn'
-]
-```
+]```
 
 Gå tilbake til ``[prosjekt_navn]`` mappen og bruk:\
 ``py manage.py makemigrations [app_navn]``\
