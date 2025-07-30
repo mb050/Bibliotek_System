@@ -5,7 +5,7 @@ modeller.
 
 ![screenshot](ER-diagram/ER-diagram_no.jpg)\
 ER-diagram for bibliotekssystemet. Koden er skrevet på engelsk, og det er en\
-engelsk versjon av samme diagram.
+engelsk versjon av samme diagram i mappen ``ER-diagram``.
 
 **Libraries som må lastes ned i forkant eller underveis:**
 - python 3.12.7 eller 3.13.2
