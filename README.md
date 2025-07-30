@@ -47,9 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-```
-til 
-```
+```til```
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
