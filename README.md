@@ -1,7 +1,6 @@
 # Bibliotek_System
 Oppgave rundt bruk av databaser i python med bruk av django. Hensikt å kunne lage en database med fokus på CRUD operasjoner.
 
-# database-northwind
 Oppgave rundt bruk av databaser i python med bruk av django. Hensikt\
 å kunne hente ut informasjon fra ulike tabeller og analysere innholdet.\
 Deretter formatere det og lagre det som sql filer. 
@@ -38,8 +37,11 @@ manage.py
 Lag en django-app med:\
 ``py manage.py [app_navn]``
 
-legg til følgende filer, ``models.py`` og ``admin.py`` fra mappen ``bibliotek`` i 
-Gå først til ``[prosjekt_navn]/settings.py`` og endre følgende
+Legg til følgende filer, ``models.py`` og ``admin.py`` fra mappen ``bibliotek`` i din\ 
+egen app mappen ``[app_navn]`` som ble laget i steget ovenfor. Det er også mulig å\
+kopiere over innholdet til filene med samme navn.
+
+Deretter gå til ``[prosjekt_navn]/settings.py`` og endre følgende
 ```
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -79,8 +81,9 @@ For å stoppe/lukke serveren bruk:\
 ``ctrl + c``
 
 På dette stadiet er oppsettet med Django ferdig. legg til mappen ``support text``,\
-og filen ``help.json`` i mappen. I ``[prosjekt_navn]`` legg til ``main.py``, og mappen\
-``classes``, inkludert alt innholdet som kan bli funnet fra denne github siden.\
+og filen ``help.json``, ``edit_menu.json`` i mappen. I ``[prosjekt_navn]`` legg til\
+``main.py``, og mappen ``classes``, inkludert alt innholdet som kan bli funnet fra\ 
+denne github siden.\
 Filene i mappen ``[prosjekt_navn]`` skal være tilsvarende som:
 ```
 - prosjekt_navn:
@@ -95,16 +98,15 @@ Filene i mappen ``[prosjekt_navn]`` skal være tilsvarende som:
         - tests.py
         - views.py
     - classes:
-        - interface:
-            - query_functions.py
-            - utility.py
+        - analytic.py
+        - author_query.py
         - base.py
-        - create_sql.py
-        - delivery_time.py
-        - employee_analytics.py
-        - product_query.py
-        - sales.py
-        - storage_query.py
+        - book_query.py
+        - borrowing_query.py
+        - category_query.py
+        - customer_query.py
+        - interface.py
+        - library_query.py
     - prosjekt_navn:
         - __init__.py
         - asgi.py
