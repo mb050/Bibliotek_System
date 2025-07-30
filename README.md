@@ -1,9 +1,7 @@
 # Bibliotek_System
-Oppgave rundt bruk av databaser i python med bruk av django. Hensikt å kunne lage en database med fokus på CRUD operasjoner.
-
-Oppgave rundt bruk av databaser i python med bruk av django. Hensikt\
-å kunne hente ut informasjon fra ulike tabeller og analysere innholdet.\
-Deretter formatere det og lagre det som sql filer. 
+Oppgave rundt bruk av databaser i python med bruk av django. Hensikt å kunne\
+lage en database med fokus på CRUD operasjoner og flere relasjoner mellom\
+modeller.
 
 **Libraries som må lastes ned i forkant eller underveis:**
 - python 3.12.7 eller 3.13.2
@@ -12,8 +10,6 @@ Deretter formatere det og lagre det som sql filer.
 - psycopg2
 - tabulate
 - numpy
-
-Docker desktop eller tilsvarende vil også være nødvendig.
 
 **Forberedelser:**\
 Åpne en cmd vindu og sett opp virtual environmnet på ønsket plassering med: \
