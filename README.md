@@ -1,6 +1,5 @@
 # Bibliotek_System
-
-![screenshot](ER-diagram/ER-diagram_no.jpg)
+![screenshot](ER-diagram/ER-diagram_no.jpg)\
 ER-diagram for bibliotekssystemet. Koden er skrevet på engelsk, og det er en\
 engelsk versjon av samme diagram.\
 
