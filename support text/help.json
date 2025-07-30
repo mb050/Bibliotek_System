@@ -281,7 +281,7 @@
 			"\n\t- search_books:": [
 				"\n\t\t\u00B7 Search for a specific book.",
 				"\n\t\t\u00B7 Available variables:",
-				"\n\t\t> search_variables: title, author_name, isbn_10, isbn_13, library_id.",
+				"\n\t\t> search_variables: title, author_name, isbn_10, isbn_13, library_id, category_name.",
 				"\n\t\t> get_table: print out the result in the terminal."
 			]
         },
