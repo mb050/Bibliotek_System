@@ -374,11 +374,14 @@ class Interface_Methods():
         self.str_shortcut('Enter library_id')
         library_id = input()
         
+        self.str_shortcut('Enter category_name')
+        category_name = input()
+        
         self.str_shortcut('Get table, type "yes" or "no"')
         get_table = self.request_yes_no(input())
         
         Book_query().lookup_book(title, isbn_10, isbn_13, library_id, 
-                                 author_name, get_table)
+                                 author_name, category_name, get_table)
             
     def lending_functions(self, class_obj, input_str):
         """

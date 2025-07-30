@@ -219,8 +219,8 @@ class Book_query(Base):
             with open('txt_files/' + filename, 'w') as file:
                 file.write(table)
 
-    def lookup_book(self, title='', isbn_10='', isbn_13='', 
-                    library_id='', author_name='', get_table=False):
+    def lookup_book(self, title='', isbn_10='', isbn_13='', library_id='',
+                    author_name='', category_name='', get_table=False):
         """
         search for books given the title, isbn_10, isbn_13, library_id, and or
         author_name. The result as a table either in a file or in the terminal. 
@@ -232,6 +232,7 @@ class Book_query(Base):
             isbn_13 (str): isbn_10 of the book.
             library_id (str): library id.
             author_name (str): name of an author.
+            category_name (str): name of a category/genre.
             get_table (bool): controls if a table is printed to terminal.
         """
         function_argument = locals()
