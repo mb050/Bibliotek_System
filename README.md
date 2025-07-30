@@ -78,7 +78,7 @@ For å stoppe/lukke serveren bruk:\
 
 På dette stadiet er oppsettet med Django ferdig. legg til mappen ``support text``,\
 og filen ``help.json``, ``edit_menu.json`` i mappen. I ``[prosjekt_navn]`` legg til\
-``main.py``, og mappen ``classes``, inkludert alt innholdet som kan bli funnet fra\ 
+``main.py``, og mappen ``classes``, inkludert alt innholdet som kan bli funnet fra\
 denne github siden.\
 Filene i mappen ``[prosjekt_navn]`` skal være tilsvarende som:
 ```
