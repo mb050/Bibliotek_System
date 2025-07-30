@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]```
+]
+```
 til
 ```
 INSTALLED_APPS = [
@@ -57,8 +58,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_navn'
-]```
-
+]
+```
 Gå tilbake til ``[prosjekt_navn]`` mappen og bruk:\
 ``py manage.py makemigrations [app_navn]``\
 ``py manage.py migrate``
